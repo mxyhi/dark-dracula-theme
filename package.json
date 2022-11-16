@@ -3,8 +3,9 @@
   "displayName": "Dark Dracula Theme",
   "description": "One Dark Pro and Dracula Theme",
   "version": "0.0.1",
+  "publisher": "mxyer",
   "engines": {
-    "vscode": "^1.73.0"
+    "vscode": "^1.0.0"
   },
   "categories": [
     "Themes"
@@ -17,5 +18,9 @@
         "path": "./themes/mxy-color-theme.json"
       }
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mxyhi/dark-dracula-theme"
   }
 }
