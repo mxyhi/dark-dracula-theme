@@ -2,11 +2,12 @@
   "name": "dark-dracula-theme",
   "displayName": "Dark Dracula Theme",
   "description": "One Dark Pro and Dracula Theme",
-  "version": "0.0.1",
+  "version": "0.0.11",
   "publisher": "mxyer",
   "engines": {
     "vscode": "^1.0.0"
   },
+  "icon": "icon/icon.png",
   "categories": [
     "Themes"
   ],
