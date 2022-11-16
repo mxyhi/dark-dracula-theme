@@ -1,0 +1,21 @@
+{
+  "name": "dark-dracula-theme",
+  "displayName": "Dark Dracula Theme",
+  "description": "One Dark Pro and Dracula Theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.73.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dark Dracula Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/mxy-color-theme.json"
+      }
+    ]
+  }
+}
