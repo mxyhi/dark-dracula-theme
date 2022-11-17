@@ -1,6 +1,6 @@
 # preview
 
-![preview](./README/preview.png)
+![preview](./assets/preview.png)
 
 ---
 
