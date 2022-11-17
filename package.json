@@ -2,8 +2,9 @@
   "name": "dark-dracula-theme",
   "displayName": "Dark Dracula Theme",
   "description": "One Dark Pro and Dracula Theme",
-  "version": "0.0.11",
+  "version": "0.0.2",
   "publisher": "mxyer",
+  "license": "MIT",
   "engines": {
     "vscode": "^1.0.0"
   },
@@ -16,12 +17,17 @@
       {
         "label": "Dark Dracula Theme",
         "uiTheme": "vs-dark",
-        "path": "./themes/mxy-color-theme.json"
+        "path": "./themes/dark-color-theme.json"
+      },
+      {
+        "label": "Dark Dracula Comment Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-comment-theme.json"
       }
     ]
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mxyhi/dark-dracula-theme"
+    "url": "https://github.com/mxyhi/dark-dracula-theme.git"
   }
 }
