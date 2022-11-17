@@ -1,5 +1,5 @@
 {
-  "name": "mxy",
+  "name": "Dark",
   "colors": {
     "activityBar.background": "#23272e",
     "activityBar.foreground": "#d7dae0",
@@ -1197,7 +1197,7 @@
     },
     {
       "scope": [
-        "entity.name.function",
+        // "entity.name.function",
         "meta.require",
         "support.function.any-method",
         "variable.function"
@@ -2359,9 +2359,22 @@
       }
     },
     {
+      "scope": ["variable.parameter", "variable.other.readwrite"],
+      "settings": {
+        "foreground": "#FFB86C",
+        "fontStyle": "italic"
+      }
+    },
+    {
       "scope": ["entity.name.function", "entity.other.attribute-name.id"],
       "settings": {
         "foreground": "#7BD88F"
+      }
+    },
+    {
+      "scope": ["variable.other.constant.object", "variable.other.constant"],
+      "settings": {
+        "foreground": "#E5C07B"
       }
     },
     {
@@ -2385,12 +2398,7 @@
         "fontStyle": "italic"
       }
     },
-    {
-      "scope": ["variable.parameter"],
-      "settings": {
-        "foreground": "#FFB86C"
-      }
-    },
+
     {
       "scope": [
         "keyword",

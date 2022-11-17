@@ -1,5 +1,5 @@
 {
-  "name": "mxy",
+  "name": "Dark Dracula",
   "colors": {
     "activityBar.background": "#23272e",
     "activityBar.foreground": "#d7dae0",
@@ -974,7 +974,7 @@
       }
     },
     {
-      "scope": "variable.other.readwrite,meta.object-literal.key,support.variable.property,support.variable.object.process,support.variable.object.node",
+      "scope": "meta.object-literal.key,support.variable.property,support.variable.object.process,support.variable.object.node",
       "settings": {
         "foreground": "#E06C75"
       }
@@ -2380,9 +2380,10 @@
       }
     },
     {
-      "scope": ["variable.parameter"],
+      "scope": ["variable.parameter", "variable.other.readwrite"],
       "settings": {
-        "foreground": "#FFB86C"
+        "foreground": "#FFB86C",
+        "fontStyle": "italic"
       }
     },
     {

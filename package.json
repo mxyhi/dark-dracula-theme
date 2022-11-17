@@ -2,7 +2,8 @@
   "name": "dark-dracula-theme",
   "displayName": "Dark Dracula Theme",
   "description": "One Dark Pro and Dracula Theme",
-  "version": "0.0.2",
+  "version": "0.0.20",
+  "readme": "./README.md",
   "publisher": "mxyer",
   "license": "MIT",
   "engines": {
